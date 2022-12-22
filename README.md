@@ -2,6 +2,20 @@
 
 Developed by [Encode Web Team] [Parth Sood](https://github.com/psood708), [Aniket Patel](https://github.com/Aniket-Patel-swg) and [sarthak]
 
+# Folder Structure
+
+```
+.
+├── public
+│   └── index.html
+├── src
+│   ├── CSS
+│   |── Images    
+│   ├── Components
+|   ├── Pages
+│   ├── App.js
+│   └── index.js
+└── README.md
 
 ## Getting Started with Project locally
 
