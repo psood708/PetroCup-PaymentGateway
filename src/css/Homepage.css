@@ -1,4 +1,77 @@
-.check{
-    background-color: #ffced7;
-    padding: 2em;
+.home-page{
+    background-color: #f1f1f1;
 }
+.heading{
+    padding: 1.8em;
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: 800;
+    color: #585858;
+    margin: auto;
+}
+.section1{
+    background-color: #f1f1f1;
+    /* padding-top: 1em; */
+}
+.general-info{
+    width: 85%;
+    padding: 3em;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+    box-shadow:  5px 5px 5px rgba(141, 141, 141, 0.2);
+}
+.information{
+    padding: 1rem;
+}
+.user-info-text{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #757575cf;
+}
+.information input{
+    width: 100%;
+    padding: 1%;
+    background-color: #EDEDED;
+    border: none;
+    color: #757575;
+    font-size: 1em;
+}
+.section2{
+    background-color: #f1f1f1;
+    margin-top: 2em;
+}
+.games-text{
+    font-size: 1.3em;
+    color: #757575cf;
+    margin-left: 1em;
+}
+.games-list{
+    display: flex;
+    margin-left: 1.3em; 
+    gap: 5em;
+    justify-content: left;
+}
+.list1{
+    padding: 1em;
+}
+.list1 ul{
+    list-style-type: none;
+}
+.list1 ul li{
+    padding: 1em;
+    margin: 1em;
+    background-color: #EDEDED;
+}
+input[type="checkbox"]{
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    place-content: center;
+    box-shadow: inset 1em 1em rgb(0, 0, 0/2);
+}
+
